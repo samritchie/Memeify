@@ -12,7 +12,7 @@ import Common
 
 class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
 
-    lazy var realm = try! Realm()
+    lazy var realm = try! Realm.sharedRealm()
     
     override func viewDidLoad() {
         super.viewDidLoad()

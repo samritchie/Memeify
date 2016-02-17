@@ -14,11 +14,12 @@ import Common
 class TodayViewController: UIViewController, NCWidgetProviding {
     
     @IBOutlet var memeView: MemeView!
-    let realm = try! Realm()
+    lazy var realm = try! Realm.sharedRealm()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view from its nib.
+        self.view.translatesAutoresizingMaskIntoConstraints = false
     }
     
     override func didReceiveMemoryWarning() {
@@ -37,4 +38,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         completionHandler(NCUpdateResult.NewData)
     }
     
+    func widgetMarginInsetsForProposedMarginInsets(defaultMarginInsets: UIEdgeInsets) -> UIEdgeInsets {
+        return UIEdgeInsetsZero
+    }
 }

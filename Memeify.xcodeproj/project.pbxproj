@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224D50FC1C72E02B00DF587C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FA1C72E02B00DF587C /* Realm.framework */; };
-		224D51051C7300DC00DF587C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FA1C72E02B00DF587C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		224D51061C7300DC00DF587C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FB1C72E02B00DF587C /* RealmSwift.framework */; };
-		224D51071C7300DC00DF587C /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FB1C72E02B00DF587C /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		224D510F1C730C9E00DF587C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D510E1C730C9E00DF587C /* NotificationCenter.framework */; };
+		2241949E1C74B48C00FB12AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; };
+		2241949F1C74B48C00FB12AB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		224194A01C74B48C00FB12AB /* RealmGridController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194951C74B47100FB12AB /* RealmGridController.framework */; };
+		224194A11C74B48C00FB12AB /* RealmGridController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194951C74B47100FB12AB /* RealmGridController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		224194A21C74B48C00FB12AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194961C74B47100FB12AB /* RealmSwift.framework */; };
+		224194A31C74B48C00FB12AB /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194961C74B47100FB12AB /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		224194A41C74B48C00FB12AB /* SwiftFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194971C74B47100FB12AB /* SwiftFetchedResultsController.framework */; };
+		224194A51C74B48C00FB12AB /* SwiftFetchedResultsController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194971C74B47100FB12AB /* SwiftFetchedResultsController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		224194A61C74B49B00FB12AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; };
+		224194A71C74B49B00FB12AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194961C74B47100FB12AB /* RealmSwift.framework */; };
+		224194A81C74B4A600FB12AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; };
+		224194A91C74B4A600FB12AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194961C74B47100FB12AB /* RealmSwift.framework */; };
+		224194AC1C74B50500FB12AB /* RBQFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194AA1C74B4FB00FB12AB /* RBQFetchedResultsController.framework */; };
+		224194AD1C74B50500FB12AB /* RBQFetchedResultsController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194AA1C74B4FB00FB12AB /* RBQFetchedResultsController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		224D51121C730C9E00DF587C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D51111C730C9E00DF587C /* TodayViewController.swift */; };
 		224D51151C730C9E00DF587C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224D51131C730C9E00DF587C /* MainInterface.storyboard */; };
 		224D51191C730C9E00DF587C /* TodayExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 224D510D1C730C9E00DF587C /* TodayExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -20,8 +29,6 @@
 		224D512B1C730CCA00DF587C /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224D51231C730CCA00DF587C /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		224D51311C730E2300DF587C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D512F1C730E2300DF587C /* Models.swift */; };
 		224D51321C730E2300DF587C /* MemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D51301C730E2300DF587C /* MemeView.swift */; };
-		224D51331C730E5900DF587C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FA1C72E02B00DF587C /* Realm.framework */; };
-		224D51341C730E5B00DF587C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FB1C72E02B00DF587C /* RealmSwift.framework */; };
 		224D51351C73134200DF587C /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D51231C730CCA00DF587C /* Common.framework */; };
 		224D515F1C731D7000DF587C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D51501C731D3200DF587C /* AppDelegate.swift */; };
 		224D51601C731D7200DF587C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224D51571C731D3200DF587C /* ViewController.swift */; };
@@ -30,8 +37,7 @@
 		224D51631C731D8900DF587C /* Antonio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224D514F1C731D3200DF587C /* Antonio-Bold.ttf */; };
 		224D51641C731DA500DF587C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224D51541C731D3200DF587C /* Main.storyboard */; };
 		224D51651C731DA500DF587C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224D51521C731D3200DF587C /* LaunchScreen.storyboard */; };
-		224D51661C731ED600DF587C /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FB1C72E02B00DF587C /* RealmSwift.framework */; };
-		224D51671C731ED800DF587C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224D50FA1C72E02B00DF587C /* Realm.framework */; };
+		229F11D01C74280C004FAA1A /* Antonio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224D514F1C731D3200DF587C /* Antonio-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +64,12 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2241949F1C74B48C00FB12AB /* Realm.framework in Embed Frameworks */,
+				224194AD1C74B50500FB12AB /* RBQFetchedResultsController.framework in Embed Frameworks */,
+				224194A51C74B48C00FB12AB /* SwiftFetchedResultsController.framework in Embed Frameworks */,
+				224194A11C74B48C00FB12AB /* RealmGridController.framework in Embed Frameworks */,
+				224194A31C74B48C00FB12AB /* RealmSwift.framework in Embed Frameworks */,
 				224D512B1C730CCA00DF587C /* Common.framework in Embed Frameworks */,
-				224D51071C7300DC00DF587C /* RealmSwift.framework in Embed Frameworks */,
-				224D51051C7300DC00DF587C /* Realm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,11 +88,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		224194941C74B47100FB12AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		224194951C74B47100FB12AB /* RealmGridController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmGridController.framework; path = Carthage/Build/iOS/RealmGridController.framework; sourceTree = "<group>"; };
+		224194961C74B47100FB12AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		224194971C74B47100FB12AB /* SwiftFetchedResultsController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftFetchedResultsController.framework; path = Carthage/Build/iOS/SwiftFetchedResultsController.framework; sourceTree = "<group>"; };
+		224194AA1C74B4FB00FB12AB /* RBQFetchedResultsController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RBQFetchedResultsController.framework; path = Carthage/Build/iOS/RBQFetchedResultsController.framework; sourceTree = "<group>"; };
 		224D50471C72C63C00DF587C /* Memeify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		224D50FA1C72E02B00DF587C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
-		224D50FB1C72E02B00DF587C /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		224D510D1C730C9E00DF587C /* TodayExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodayExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		224D510E1C730C9E00DF587C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		224D51111C730C9E00DF587C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		224D51141C730C9E00DF587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		224D51161C730C9E00DF587C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +110,8 @@
 		224D51551C731D3200DF587C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		224D51561C731D3200DF587C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224D51571C731D3200DF587C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229F11CE1C741CA1004FAA1A /* Memeify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Memeify.entitlements; sourceTree = "<group>"; };
+		229F11CF1C741CDB004FAA1A /* TodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodayExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +119,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2241949E1C74B48C00FB12AB /* Realm.framework in Frameworks */,
+				224194AC1C74B50500FB12AB /* RBQFetchedResultsController.framework in Frameworks */,
+				224194A41C74B48C00FB12AB /* SwiftFetchedResultsController.framework in Frameworks */,
+				224194A01C74B48C00FB12AB /* RealmGridController.framework in Frameworks */,
+				224194A21C74B48C00FB12AB /* RealmSwift.framework in Frameworks */,
 				224D512A1C730CCA00DF587C /* Common.framework in Frameworks */,
-				224D51061C7300DC00DF587C /* RealmSwift.framework in Frameworks */,
-				224D50FC1C72E02B00DF587C /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,9 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				224D51351C73134200DF587C /* Common.framework in Frameworks */,
-				224D510F1C730C9E00DF587C /* NotificationCenter.framework in Frameworks */,
-				224D51671C731ED800DF587C /* Realm.framework in Frameworks */,
-				224D51661C731ED600DF587C /* RealmSwift.framework in Frameworks */,
+				224194A61C74B49B00FB12AB /* Realm.framework in Frameworks */,
+				224194A71C74B49B00FB12AB /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,18 +142,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224D51331C730E5900DF587C /* Realm.framework in Frameworks */,
-				224D51341C730E5B00DF587C /* RealmSwift.framework in Frameworks */,
+				224194A81C74B4A600FB12AB /* Realm.framework in Frameworks */,
+				224194A91C74B4A600FB12AB /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224194911C74B44400FB12AB /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				224194AA1C74B4FB00FB12AB /* RBQFetchedResultsController.framework */,
+				224194941C74B47100FB12AB /* Realm.framework */,
+				224194951C74B47100FB12AB /* RealmGridController.framework */,
+				224194961C74B47100FB12AB /* RealmSwift.framework */,
+				224194971C74B47100FB12AB /* SwiftFetchedResultsController.framework */,
+			);
+			name = Carthage;
+			sourceTree = "<group>";
+		};
 		224D503E1C72C63C00DF587C = {
 			isa = PBXGroup;
 			children = (
-				224D50F91C72E02B00DF587C /* Frameworks */,
+				224194911C74B44400FB12AB /* Carthage */,
 				224D51241C730CCA00DF587C /* Common */,
 				224D514E1C731D3200DF587C /* Memeify */,
 				224D51101C730C9E00DF587C /* TodayExtension */,
@@ -156,19 +183,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		224D50F91C72E02B00DF587C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				224D50FA1C72E02B00DF587C /* Realm.framework */,
-				224D50FB1C72E02B00DF587C /* RealmSwift.framework */,
-				224D510E1C730C9E00DF587C /* NotificationCenter.framework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
 		224D51101C730C9E00DF587C /* TodayExtension */ = {
 			isa = PBXGroup;
 			children = (
+				229F11CF1C741CDB004FAA1A /* TodayExtension.entitlements */,
 				224D51111C730C9E00DF587C /* TodayViewController.swift */,
 				224D51131C730C9E00DF587C /* MainInterface.storyboard */,
 				224D51161C730C9E00DF587C /* Info.plist */,
@@ -190,6 +208,7 @@
 		224D514E1C731D3200DF587C /* Memeify */ = {
 			isa = PBXGroup;
 			children = (
+				229F11CE1C741CA1004FAA1A /* Memeify.entitlements */,
 				224D51571C731D3200DF587C /* ViewController.swift */,
 				224D51501C731D3200DF587C /* AppDelegate.swift */,
 				224D51541C731D3200DF587C /* Main.storyboard */,
@@ -283,9 +302,21 @@
 				TargetAttributes = {
 					224D50461C72C63C00DF587C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4BEVA26CCU;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					224D510C1C730C9E00DF587C = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4BEVA26CCU;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					224D51221C730CCA00DF587C = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -329,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229F11D01C74280C004FAA1A /* Antonio-Bold.ttf in Resources */,
 				224D51151C730C9E00DF587C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,15 +529,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Memeify/Memeify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Memeify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memeify.Memeify;
 				PRODUCT_NAME = Memeify;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -513,29 +550,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Memeify/Memeify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Memeify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memeify.Memeify;
 				PRODUCT_NAME = Memeify;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		224D511B1C730C9E00DF587C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memeify.Memeify.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -543,14 +590,19 @@
 		224D511C1C730C9E00DF587C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodayExtension/TodayExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = TodayExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memeify.Memeify.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -568,6 +620,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Common/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -595,6 +648,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Common/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -627,6 +681,7 @@
 				224D505B1C72C63C00DF587C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		224D511A1C730C9E00DF587C /* Build configuration list for PBXNativeTarget "TodayExtension" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +690,7 @@
 				224D511C1C730C9E00DF587C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		224D512C1C730CCA00DF587C /* Build configuration list for PBXNativeTarget "Common" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +699,7 @@
 				224D512E1C730CCA00DF587C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

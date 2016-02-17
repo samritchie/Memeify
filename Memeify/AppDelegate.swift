@@ -12,14 +12,14 @@ import Common
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    lazy var realm = try! Realm.sharedRealm()
 
     var window: UIWindow?
     
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+
         /*
-        let realm = try! Realm()
-        
         try! realm.write {
             var meme = Meme()
             meme.baseImage = UIImage(named: "Y-U-No")!

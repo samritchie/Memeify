@@ -9,6 +9,16 @@
 import UIKit
 import RealmSwift
 
+extension Realm {
+    public static func sharedRealm() throws -> Realm {
+        guard let path = NSFileManager.defaultManager()
+            .containerURLForSecurityApplicationGroupIdentifier("group.com.memeify")?
+            .URLByAppendingPathComponent("db.realm")
+            .path else { throw NSError(domain: "RealmDomain", code: 0, userInfo: [NSLocalizedDescriptionKey: "The App Group Container was not found."]) }
+        return try Realm(path: path)
+    }
+}
+
 public class Meme: Object {
     dynamic var baseImageData = NSData()
     public dynamic var textLineOne = ""
