@@ -9,10 +9,13 @@
 import UIKit
 import RealmSwift
 import Common
+import RealmGridController
 
-class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class ViewController: RealmGridController, UICollectionViewDelegateFlowLayout {
 
-    lazy var realm = try! Realm.sharedRealm()
+    override var realm: Realm {
+        return try! Realm.sharedRealm()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
