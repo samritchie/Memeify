@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223050C61C76FB390046500E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223050C51C76FB390046500E /* NotificationCenter.framework */; };
 		2241949E1C74B48C00FB12AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; };
 		2241949F1C74B48C00FB12AB /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 224194941C74B47100FB12AB /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		224194A01C74B48C00FB12AB /* RealmGridController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224194951C74B47100FB12AB /* RealmGridController.framework */; };
@@ -55,6 +56,13 @@
 			remoteGlobalIDString = 224D51221C730CCA00DF587C;
 			remoteInfo = Common;
 		};
+		2297AA451C76F5F1002B4792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224D503F1C72C63C00DF587C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224D51221C730CCA00DF587C;
+			remoteInfo = Common;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +96,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		223050C51C76FB390046500E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		224194941C74B47100FB12AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		224194951C74B47100FB12AB /* RealmGridController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmGridController.framework; path = Carthage/Build/iOS/RealmGridController.framework; sourceTree = "<group>"; };
 		224194961C74B47100FB12AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
@@ -132,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223050C61C76FB390046500E /* NotificationCenter.framework in Frameworks */,
 				224D51351C73134200DF587C /* Common.framework in Frameworks */,
 				224194A61C74B49B00FB12AB /* Realm.framework in Frameworks */,
 				224194A71C74B49B00FB12AB /* RealmSwift.framework in Frameworks */,
@@ -165,6 +175,7 @@
 		224D503E1C72C63C00DF587C = {
 			isa = PBXGroup;
 			children = (
+				223050C51C76FB390046500E /* NotificationCenter.framework */,
 				224194911C74B44400FB12AB /* Carthage */,
 				224D51241C730CCA00DF587C /* Common */,
 				224D514E1C731D3200DF587C /* Memeify */,
@@ -266,6 +277,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2297AA461C76F5F1002B4792 /* PBXTargetDependency */,
 			);
 			name = TodayExtension;
 			productName = TodayExtension;
@@ -413,6 +425,11 @@
 			isa = PBXTargetDependency;
 			target = 224D51221C730CCA00DF587C /* Common */;
 			targetProxy = 224D51281C730CCA00DF587C /* PBXContainerItemProxy */;
+		};
+		2297AA461C76F5F1002B4792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224D51221C730CCA00DF587C /* Common */;
+			targetProxy = 2297AA451C76F5F1002B4792 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
